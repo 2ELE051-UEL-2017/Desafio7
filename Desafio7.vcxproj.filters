@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CppUTest">
+      <UniqueIdentifier>{ba884bbc-9cbc-4858-9fae-615807dc75ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CppUTest">
+      <UniqueIdentifier>{3cc7cedf-281a-4edf-9eb2-8e85946d2a88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppUTest\CommandLineArguments.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\CommandLineTestRunner.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\JUnitTestOutput.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\MemoryLeakDetector.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\MemoryLeakWarningPlugin.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\SimpleMutex.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\SimpleString.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TeamCityTestOutput.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestFailure.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestFilter.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestHarness_c.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestMemoryAllocator.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestOutput.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestPlugin.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestRegistry.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestResult.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\TestTestingFixture.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\Utest.cpp">
+      <Filter>Source Files\CppUTest</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projeto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUTest\UtestPlatform.cpp">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CppUTest\CommandLineArguments.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\CommandLineTestRunner.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\CppUTestConfig.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\CppUTestGeneratedConfig.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\JUnitTestOutput.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\MemoryLeakDetector.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\MemoryLeakDetectorMallocMacros.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\MemoryLeakDetectorNewMacros.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\MemoryLeakWarningPlugin.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\PlatformSpecificFunctions.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\PlatformSpecificFunctions_c.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\SimpleMutex.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\SimpleString.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\StandardCLibrary.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TeamCityTestOutput.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestFailure.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestFilter.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestHarness.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestHarness_c.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestMemoryAllocator.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestOutput.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestPlugin.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestRegistry.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestResult.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\TestTestingFixture.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\Utest.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUTest\UtestMacros.h">
+      <Filter>Header Files\CppUTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
